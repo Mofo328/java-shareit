@@ -13,9 +13,9 @@ import java.util.stream.Collectors;
 @Repository
 public class ItemRepositoryImpl implements ItemRepository {
 
-    private Map<Long, Map<Long, Item>> ownerItems = new HashMap<>();
+    private final Map<Long, Map<Long, Item>> ownerItems = new HashMap<>();
 
-    private Map<Long, Item> items = new HashMap<>();
+    private final Map<Long, Item> items = new HashMap<>();
 
     private Long counter = 1L;
 
@@ -65,13 +65,6 @@ public class ItemRepositoryImpl implements ItemRepository {
     @Override
     public List<Item> getOwnerItems(Long id) {
         return ownerItems.get(id).values().stream().toList();
-    }
-
-    @Override
-    public boolean delete(Long id) {
-        Item item = items.get(id);
-        items.remove(id);
-        return ownerItems.values().remove(item);
     }
 
     @Override

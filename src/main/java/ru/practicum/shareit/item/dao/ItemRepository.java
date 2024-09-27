@@ -15,7 +15,5 @@ public interface ItemRepository {
 
     List<Item> getOwnerItems(Long id);
 
-    boolean delete(Long id);
-
     List<Item> search(String query);
 }
