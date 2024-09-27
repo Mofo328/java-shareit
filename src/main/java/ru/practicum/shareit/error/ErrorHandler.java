@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.lang.reflect.InvocationTargetException;
+
 @RestControllerAdvice()
 public class ErrorHandler {
     @AllArgsConstructor
