@@ -6,9 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 
-/**
- * TODO Sprint add-controllers.
- */
 @AllArgsConstructor
 @Data
 public class ItemDto {
@@ -20,5 +17,4 @@ public class ItemDto {
     @NotNull
     private Boolean available;
 
-    private Long ownerId;
 }

@@ -11,11 +11,6 @@ import java.lang.reflect.InvocationTargetException;
 
 @RestControllerAdvice()
 public class ErrorHandler {
-    @AllArgsConstructor
-    @Getter
-    public class ErrorResponse {
-        private String error;
-    }
 
     @ExceptionHandler(NotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
@@ -55,5 +50,11 @@ public class ErrorHandler {
         return new ErrorResponse(
                 e.getMessage()
         );
+    }
+
+    @AllArgsConstructor
+    @Getter
+    private class ErrorResponse {
+        private String error;
     }
 }

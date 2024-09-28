@@ -10,9 +10,6 @@ import ru.practicum.shareit.item.service.ItemService;
 
 import java.util.List;
 
-/**
- * TODO Sprint add-controllers.
- */
 
 @Slf4j
 @RequiredArgsConstructor
@@ -21,9 +18,7 @@ import java.util.List;
 @Validated
 public class ItemController {
 
-
     private final ItemService itemService;
-
 
     @PostMapping
     public ItemDto create(@RequestHeader("X-Sharer-User-Id") Long userId, @RequestBody @Valid ItemDto itemDto) {

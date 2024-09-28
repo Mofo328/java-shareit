@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+
 @Repository
 public class ItemRepositoryImpl implements ItemRepository {
 
@@ -22,10 +23,6 @@ public class ItemRepositoryImpl implements ItemRepository {
     @Override
     public Item create(Item item) {
         item.setId(generateId());
-        item.setName(item.getName());
-        item.setDescription(item.getDescription());
-        item.setAvailable(item.getAvailable());
-        item.setOwner(item.getOwner());
         items.put(item.getId(), item);
         Map<Long, Item> items = ownerItems.getOrDefault(item.getOwner().getId(), new HashMap<>());
         items.put(item.getId(), item);

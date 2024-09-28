@@ -6,9 +6,7 @@ import ru.practicum.shareit.user.model.User;
 
 import java.time.LocalDateTime;
 
-/**
- * TODO Sprint add-item-requests.
- */
+
 @Data
 @RequiredArgsConstructor
 public class ItemRequest {

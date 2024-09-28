@@ -4,14 +4,14 @@ import ru.practicum.shareit.item.dto.ItemDto;
 import ru.practicum.shareit.item.model.Item;
 import ru.practicum.shareit.user.model.User;
 
+
 public class ItemMapper {
     public static ItemDto itemDto(Item item) {
         return new ItemDto(
                 item.getId(),
                 item.getName(),
                 item.getDescription(),
-                item.getAvailable(),
-                item.getOwner().getId()
+                item.getAvailable()
         );
     }
 
