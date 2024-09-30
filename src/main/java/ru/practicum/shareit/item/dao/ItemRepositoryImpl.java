@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 @Repository
 public class ItemRepositoryImpl implements ItemRepository {
 
-    private final Map<Long, Map<Long, Item>> ownerItems = new HashMap<>();
+    private final Map<Long, List<Item>> ownerItems = new HashMap<>();
 
     private final Map<Long, Item> items = new HashMap<>();
 
@@ -24,9 +24,9 @@ public class ItemRepositoryImpl implements ItemRepository {
     public Item create(Item item) {
         item.setId(generateId());
         items.put(item.getId(), item);
-        Map<Long, Item> items = ownerItems.getOrDefault(item.getOwner().getId(), new HashMap<>());
-        items.put(item.getId(), item);
-        ownerItems.put(item.getOwner().getId(), items);
+        List<Item> userItems = ownerItems.computeIfAbsent(item.getOwner().getId(), list -> new ArrayList<>());
+        userItems.add(item);
+        ownerItems.put(item.getOwner().getId(), userItems);
         return item;
     }
 
@@ -43,9 +43,9 @@ public class ItemRepositoryImpl implements ItemRepository {
             updateItem.setAvailable(item.getAvailable());
         }
         items.put(updateItem.getId(), updateItem);
-        Map<Long, Item> items = ownerItems.get(item.getOwner().getId());
-        items.put(updateItem.getId(), updateItem);
-        ownerItems.put(updateItem.getOwner().getId(), items);
+        List<Item> userItems = ownerItems.get(item.getOwner().getId());
+        userItems.add(updateItem);
+        ownerItems.put(updateItem.getOwner().getId(), userItems);
         return updateItem;
     }
 
@@ -61,7 +61,7 @@ public class ItemRepositoryImpl implements ItemRepository {
 
     @Override
     public List<Item> getOwnerItems(Long id) {
-        return ownerItems.get(id).values().stream().toList();
+        return ownerItems.get(id);
     }
 
     @Override

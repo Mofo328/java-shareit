@@ -1,6 +1,7 @@
 package ru.practicum.shareit.user.dao;
 
 import org.springframework.stereotype.Repository;
+import ru.practicum.shareit.error.NotFoundException;
 import ru.practicum.shareit.error.RequestConflictException;
 import ru.practicum.shareit.user.model.User;
 
@@ -33,7 +34,7 @@ public class UserRepositoryImpl implements UserRepository {
         }
         if (user.getEmail() != null) {
             checkEmail(user);
-            emails.remove(user.getEmail());
+            emails.remove(updateUser.getEmail());
             updateUser.setEmail(user.getEmail());
             emails.add(updateUser.getEmail());
         }
@@ -48,6 +49,9 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public void delete(Long id) {
+        if (users.get(id) == null) {
+            throw new NotFoundException("Пользователь не найден");
+        }
         emails.remove(users.get(id).getEmail());
         users.remove(id);
 
