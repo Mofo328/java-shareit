@@ -3,7 +3,9 @@ package ru.practicum.shareit.user.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import ru.practicum.shareit.error.NotFoundException;
+import ru.practicum.shareit.error.RequestConflictException;
 import ru.practicum.shareit.user.dao.UserRepository;
+import ru.practicum.shareit.user.dao.UserStore;
 import ru.practicum.shareit.user.dto.UserDto;
 import ru.practicum.shareit.user.maper.UserMapper;
 import ru.practicum.shareit.user.model.User;
@@ -19,19 +21,25 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserDto create(UserDto userDto) {
         User user = UserMapper.toUser(userDto);
-        return UserMapper.toUserDto(userRepository.create(user));
+        return UserMapper.toUserDto(userRepository.save(user));
     }
 
     @Override
     public UserDto update(Long id, UserDto userDtoUpdate) {
-        User user = UserMapper.toUser(userDtoUpdate);
-        user.setId(id);
-        return UserMapper.toUserDto(userRepository.update(user));
+        User user = userRepository.findById(id).orElseThrow(() ->
+                new NotFoundException("Пользователя нет"));
+        if (userDtoUpdate.getName() != null) {
+            user.setName(userDtoUpdate.getName());
+        }
+        if (userDtoUpdate.getEmail() != null) {
+            user.setEmail(userDtoUpdate.getEmail());
+        }
+        return UserMapper.toUserDto(userRepository.save(user));
     }
 
     @Override
     public UserDto get(Long id) {
-        User user = userRepository.get(id).orElseThrow(() ->
+        User user = userRepository.findById(id).orElseThrow(() ->
                 new NotFoundException("Пользователя нет")
         );
         return UserMapper.toUserDto(user);
@@ -39,12 +47,12 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void delete(Long id) {
-        userRepository.delete(id);
+        userRepository.deleteById(id);
     }
 
     @Override
     public List<User> getAll() {
-        return userRepository.getAll();
+        return userRepository.findAll();
     }
 
 }

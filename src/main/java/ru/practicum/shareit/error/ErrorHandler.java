@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import java.lang.reflect.InvocationTargetException;
 
 @RestControllerAdvice()
 public class ErrorHandler {
@@ -44,9 +43,9 @@ public class ErrorHandler {
         );
     }
 
-    @ExceptionHandler(InvocationTargetException.class)
+    @ExceptionHandler(UserNotOwnerException.class)
     @ResponseStatus(HttpStatus.FORBIDDEN)
-    public ErrorResponse handleInvocationTargetException(final InvocationTargetException e) {
+    public ErrorResponse handleUserNotOwnerException(final UserNotOwnerException e) {
         return new ErrorResponse(
                 e.getMessage()
         );

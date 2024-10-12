@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 
 @Repository
-public class ItemRepositoryImpl implements ItemRepository {
+public class ItemStoreImpl implements ItemStore {
 
     private final Map<Long, List<Item>> ownerItems = new HashMap<>();
 
