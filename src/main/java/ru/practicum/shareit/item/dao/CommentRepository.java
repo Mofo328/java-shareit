@@ -9,4 +9,7 @@ import java.util.List;
 public interface CommentRepository extends JpaRepository<Comment, Long> {
     @EntityGraph(type = EntityGraph.EntityGraphType.FETCH, value = "Comment.full")
     List<Comment> findAllByItemId(Long itemId);
+
+    @EntityGraph(type = EntityGraph.EntityGraphType.FETCH, value = "Comment.full")
+    List<Comment> findByItemIdIn(List<Long> items);
 }

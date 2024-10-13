@@ -15,7 +15,7 @@ public class BookingTimeValidator implements ConstraintValidator<ValidBookingTim
     @Override
     public boolean isValid(Booking booking, ConstraintValidatorContext context) {
         if (booking == null) {
-            return true; // Если объект booking null, пропускаем проверку
+            return true;
         }
         LocalDateTime start = booking.getStart();
         LocalDateTime end = booking.getEnd();

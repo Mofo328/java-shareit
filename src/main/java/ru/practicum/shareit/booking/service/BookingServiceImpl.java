@@ -37,6 +37,10 @@ public class BookingServiceImpl implements BookingService {
         if (!item.getAvailable()) {
             throw new AvailableException("Вещь уже занята");
         }
+        List<Booking> allItemBooking = bookingRepository.findByItemIdAndEndAfter(item.getId(), bookingDto.getStart());
+        if (!allItemBooking.isEmpty()) {
+            throw new AvailableException("Вещь уже занята");
+        }
         Booking booking = BookingMapper.toBooking(bookingDto, user, item);
         booking.setStatus(BookingStatus.WAITING);
         bookingRepository.save(booking);
@@ -50,7 +54,7 @@ public class BookingServiceImpl implements BookingService {
         if (!item.getOwner().getId().equals(userId)) {
             throw new UserNotOwnerException("Пользователь не является хозяином вещи");
         }
-        if (booking.getStatus().equals(BookingStatus.APPROVED) || booking.getStatus().equals(BookingStatus.REJECTED)) {
+        if (!booking.getStatus().equals(BookingStatus.WAITING)) {
             throw new AvailableException("невозможно изменить статус");
         }
         if (approved) {

@@ -79,15 +79,21 @@ public class ItemServiceImpl implements ItemService {
         List<Item> ownerItems = itemRepository.findAllByOwnerId(ownerId);
         List<Long> itemsIds = ownerItems.stream().map(Item::getId).toList();
         List<Booking> bookings = bookingRepository.findByItemIdInAndEndAfter(itemsIds, LocalDateTime.now());
+        List<Comment> allItemsComments = commentRepository.findByItemIdIn(itemsIds);
         Map<Long, List<Booking>> bookingsMapByItemsId = new HashMap<>();
+        Map<Long, List<Comment>> commentsMapByItemsID = new HashMap<>();
         for (Booking booking : bookings) {
             bookingsMapByItemsId.computeIfAbsent(booking.getItem().getId(), k -> new ArrayList<>()).add(booking);
+        }
+        for (Comment comment : allItemsComments) {
+            commentsMapByItemsID.computeIfAbsent(comment.getItem().getId(), c -> new ArrayList<>()).add(comment);
         }
         List<ItemBookingInfoDto> itemBookingInfoDto = new ArrayList<>();
 
         for (Item item : ownerItems) {
-            List<Comment> comments = commentRepository.findAllByItemId(item.getId());
-            List<CommentDto> commentDto = comments.stream().map(CommentMapper::toCommentDto).toList();
+//            List<Comment> comments = commentRepository.findAllByItemId(item.getId());
+            List<CommentDto> commentDto = commentsMapByItemsID.getOrDefault(item.getId(), new ArrayList<>())
+                    .stream().map(CommentMapper::toCommentDto).toList();
             List<Booking> itemBookings = bookingsMapByItemsId.getOrDefault(item.getId(), new ArrayList<>());
             Booking lastBooking = getLastBooking(itemBookings);
             Booking nextBooking = getNextBooking(itemBookings);
