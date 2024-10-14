@@ -24,10 +24,10 @@ public interface BookingRepository extends JpaRepository<Booking, Long> {
     List<Booking> findByItemIdInAndEndAfter(List<Long> itemIds, LocalDateTime time);
 
     @Query("SELECT b FROM Booking b " +
-            "WHERE b.item.id = :itemId AND b.end > :time AND upper(b.status) = UPPER('APPROVED')")
+            "WHERE b.item.id = :itemId AND " +
+            "((b.start < :start) AND (b.end > :end))")
     @EntityGraph(type = EntityGraph.EntityGraphType.FETCH, value = "Booking.full")
-    List<Booking> findByItemIdAndEndAfter(Long itemId, LocalDateTime time);
-
+    List<Booking> findByItemIdAndIntersection(Long itemId, LocalDateTime start, LocalDateTime end);
     @EntityGraph(type = EntityGraph.EntityGraphType.FETCH, value = "Booking.full")
     List<Booking> findAllByItemIdAndEndBefore(Long itemId, LocalDateTime time);
 

@@ -37,7 +37,7 @@ public class BookingServiceImpl implements BookingService {
         if (!item.getAvailable()) {
             throw new AvailableException("Вещь уже занята");
         }
-        List<Booking> allItemBooking = bookingRepository.findByItemIdAndEndAfter(item.getId(), bookingDto.getStart());
+        List<Booking> allItemBooking = bookingRepository.findByItemIdAndIntersection(item.getId(), bookingDto.getStart(), bookingDto.getEnd());
         if (!allItemBooking.isEmpty()) {
             throw new AvailableException("Вещь уже занята");
         }

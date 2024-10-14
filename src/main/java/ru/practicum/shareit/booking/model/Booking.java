@@ -4,9 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import ru.practicum.shareit.item.model.Item;
 import ru.practicum.shareit.user.model.User;
-
 import java.time.LocalDateTime;
-import java.util.Objects;
 
 
 @Entity
@@ -14,6 +12,7 @@ import java.util.Objects;
 @AllArgsConstructor
 @Getter
 @Setter
+@EqualsAndHashCode(exclude = {"item", "booker"})
 @Table(name = "bookings")
 @NamedEntityGraph(name = "Booking.full",
         attributeNodes = {
@@ -38,16 +37,4 @@ public class Booking {
     @Enumerated(EnumType.STRING)
     @Column(name = "status")
     private BookingStatus status;
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Booking)) return false;
-        return id != null && id.equals(((Booking) o).getId());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hashCode(id);
-    }
 }

@@ -91,7 +91,6 @@ public class ItemServiceImpl implements ItemService {
         List<ItemBookingInfoDto> itemBookingInfoDto = new ArrayList<>();
 
         for (Item item : ownerItems) {
-//            List<Comment> comments = commentRepository.findAllByItemId(item.getId());
             List<CommentDto> commentDto = commentsMapByItemsID.getOrDefault(item.getId(), new ArrayList<>())
                     .stream().map(CommentMapper::toCommentDto).toList();
             List<Booking> itemBookings = bookingsMapByItemsId.getOrDefault(item.getId(), new ArrayList<>());
