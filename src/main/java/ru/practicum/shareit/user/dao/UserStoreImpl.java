@@ -9,7 +9,7 @@ import ru.practicum.shareit.user.model.User;
 import java.util.*;
 
 @Repository
-public class UserRepositoryImpl implements UserRepository {
+public class UserStoreImpl implements UserStore {
 
     private final Map<Long, User> users = new HashMap<>();
 
