@@ -1,0 +1,408 @@
+2024-10-31 19:50:37.698608+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.723117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.731117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.738117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.745119+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.751119+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.758120+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.764117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.770117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.777118+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.783118+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.790117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.797117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.803118+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.809118+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.814117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.820116+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.825116+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.831118+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.837116+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.842118+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:37.848117+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.116088+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.123089+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.129087+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.135089+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.140087+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.147087+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.152088+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.157087+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.162087+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.168087+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.173088+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.179088+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.185086+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.190089+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.195089+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.200087+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.438007+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.444007+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.449008+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.455009+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.460007+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.465009+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.688648+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.696647+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.702648+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.709303+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.715306+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.721304+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:50:38.726304+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.769654+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.794655+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.801653+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.809657+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.815657+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.824657+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.832656+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.838653+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.844655+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.851654+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.857655+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.864654+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.870654+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.875655+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.881653+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.887655+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.892654+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.897656+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.902654+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.907655+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.912654+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:14.917654+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.174268+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.181268+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.187271+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.193270+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.199271+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.206271+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.211875+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.216874+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.221873+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.226873+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.232874+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.238874+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.244873+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.249873+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.253873+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.257873+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.494484+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.499487+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.504486+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.509486+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.514486+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.518485+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.728844+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.732844+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.736843+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.749844+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.754846+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.758847+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
+2024-10-31 19:53:15.762845+05:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "insert into users (email,user_name) values (?,?) [*]returning user_id"
+Syntax error in SQL statement "insert into users (email,user_name) values (?,?) [*]returning user_id"; SQL statement:
+insert into users (email,user_name) values (?,?) returning user_id [42000-224]
